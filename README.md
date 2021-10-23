@@ -31,7 +31,7 @@
 - #### 사진은 최대 5장 까지 등록할 수 있습니다
 ![photoLimit](https://user-images.githubusercontent.com/63037629/138556751-da5e91d8-d88d-4039-9a22-02ee0e5ac56e.PNG)
 
-- #### 작성자가 위치 등록을 하지 않았다면 안내 문구가 표시됩니다. 문구에 마우스를 올리면 등록 방법에 대해 간략히 안내해줍니다
+- #### 작성자가 위치 등록을 하지 않았다면 안내 문구가 표시됩니다
 ![popGuide1](https://user-images.githubusercontent.com/63037629/138556773-3fec561e-6040-4848-8eca-60e280b834a5.PNG)
 
 ### 📢 마이 페이지
@@ -52,10 +52,7 @@
 - #### 다른 사용자가 자신의 글에 댓글이나 찜 할 시 알림이 표시됩니다
 ![notion](https://user-images.githubusercontent.com/63037629/138557385-bc20b720-2647-479c-83d2-a31ff616bab6.PNG)
 
-- #### 해당 알림은 텍스트를 클릭해 이동할 수도 있으며 삭제 버튼으로 삭제할 수 있습니다
-![notiondelete](https://user-images.githubusercontent.com/63037629/138557386-e14a97f5-51ba-452f-9695-8f4f7e44d6f9.gif)
-
-- #### 새로운 알림이 발생했을 때 다음과 같이 표시됩니다
+- #### 새로운 알림이 발생했을 때 빨간색 느낌표로 알려주게 됩니다
 ![notionT](https://user-images.githubusercontent.com/63037629/138557387-a2f2949c-26c2-4bc8-91df-00146c4f6de5.PNG)
 
 ### 📢 거래 완료
