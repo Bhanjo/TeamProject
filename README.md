@@ -8,13 +8,68 @@
 ![image](https://user-images.githubusercontent.com/70272679/123265450-098b3380-d536-11eb-8e68-1eb5af7a6069.png)
 ![image](https://user-images.githubusercontent.com/70272679/123265502-1445c880-d536-11eb-9857-2a23b0c97588.png)
 ![image](https://user-images.githubusercontent.com/70272679/123265524-1c056d00-d536-11eb-99c7-e71e3354184a.png)
-            
-              
+
+## < 페이지 구성 >
+### 📢 메인 페이지
+- #### 도서로의 가이드를 표시해주거나 현재 인기있는 책들을 보여줍니다
+![banner](https://user-images.githubusercontent.com/63037629/138556155-e695065b-8f6c-40eb-84fe-9d424dad0505.PNG)
+
+- #### 최근 게시판에 올라온 글들을 요약해 표시합니다
+![mainPage](https://user-images.githubusercontent.com/63037629/138556227-ecc4222e-f564-4148-b132-9b8e6d2857e2.PNG)
+
+### 📢 상품 상세 페이지
+- #### 판매 중인 책에 대한 상세 정보를 보여줍니다
+![detailpage01](https://user-images.githubusercontent.com/63037629/138556372-7a2a8b7d-5dd7-4769-819e-77b7c82f7d0a.PNG)
+
+- #### 댓글과 답글을 남길 수 있으며 글 작성자는 댓글 남긴 사람에게 거래 완료 버튼을 누를 수 있습니다
+<img width="670" alt="comment2" src="https://user-images.githubusercontent.com/63037629/138556543-31f8691b-2593-43b3-bf4a-dbe6be0eeaef.PNG">
+
+### 📢 글 작성 페이지
+- #### 자신이 판매할 책의 사진과 상태, 거래 방법을 선택해 등록할 수 있습니다
+![posting](https://user-images.githubusercontent.com/63037629/138556664-e5994ef1-edea-45a0-a7e0-4bf5a9988b3a.PNG)
+
+- #### 사진은 최대 5장 까지 등록할 수 있습니다
+![photoLimit](https://user-images.githubusercontent.com/63037629/138556751-da5e91d8-d88d-4039-9a22-02ee0e5ac56e.PNG)
+
+- #### 작성자가 위치 등록을 하지 않았다면 안내 문구가 표시됩니다. 문구에 마우스를 올리면 등록 방법에 대해 간략히 안내해줍니다
+![popGuide1](https://user-images.githubusercontent.com/63037629/138556773-3fec561e-6040-4848-8eca-60e280b834a5.PNG)
+
+### 📢 마이 페이지
+- #### 위치를 등록할 수 있는 버튼과 관심상품, 내가 쓴 글, 거래 내역 등을 볼 수 있습니다
+![mypage](https://user-images.githubusercontent.com/63037629/138557079-b343245f-a818-4585-8d88-e4569512ee6d.PNG)
+
+- #### 위치 등록 버튼을 클릭해 사용자의 위치를 등록할 수 있습니다
+<img width="415" alt="step02" src="https://user-images.githubusercontent.com/63037629/138557158-78ebdab2-481f-45eb-8cf5-54d31dbc46a6.PNG">
+
+### 📢 로그인 및 회원가입
+- #### 로그인은 회원가입을 통한 방법과 구글, 카카오를 통한 외부 로그인이 있습니다
+![login](https://user-images.githubusercontent.com/63037629/138557293-493b0bef-41c4-4590-acae-bafa8ca5cd10.PNG)
+
+- #### 회원가입을 할 수 있는 폼입니다
+![Signin](https://user-images.githubusercontent.com/63037629/138557264-7da7b899-9929-4146-9253-430a4cd530b6.PNG)
+
+### 📢 댓글, 찜 알림
+- #### 다른 사용자가 자신의 글에 댓글이나 찜 할 시 알림이 표시됩니다
+![notion](https://user-images.githubusercontent.com/63037629/138557385-bc20b720-2647-479c-83d2-a31ff616bab6.PNG)
+
+- #### 해당 알림은 텍스트를 클릭해 이동할 수도 있으며 삭제 버튼으로 삭제할 수 있습니다
+![notiondelete](https://user-images.githubusercontent.com/63037629/138557386-e14a97f5-51ba-452f-9695-8f4f7e44d6f9.gif)
+
+- #### 새로운 알림이 발생했을 때 다음과 같이 표시됩니다
+![notionT](https://user-images.githubusercontent.com/63037629/138557387-a2f2949c-26c2-4bc8-91df-00146c4f6de5.PNG)
+
+### 📢 거래 완료
+- #### 글 작성자는 거래자의 댓글에 거래 완료 버튼을 눌러 거래를 종료할 수 있습니다
+![tradeconfirm02](https://user-images.githubusercontent.com/63037629/138557494-2035c1ed-2a24-4a4b-8a1f-65c4ef6f4327.PNG)
+
+- #### 거래 완료 내역은 '마이페이지'의 '거래내역'에서 확인할 수 있습니다
+<img width="750" alt="tradeconfirm03" src="https://user-images.githubusercontent.com/63037629/138557495-4ac6b37d-4750-4e65-815e-7505b99b2d7d.PNG">
+
 ## < 사용 기술 > 
 * Backend: Express, Passport, AWS EC2, Route53, Multer
 * Frontend: HTML, CSS, Nunjucks, Bootstrap 
 * Database: Sequelize, mysql
-  
+
 ## < 실행 방법 > 
   1. .env가 필요하므로 파일은 저한테 요청해주세요.
   2. 1번을 따라 .env 파일을 받으시면 터미널에 "npm i" 치고 엔터 후 "npx sequelize db:create"를 치고 엔터를 눌러주세요.
